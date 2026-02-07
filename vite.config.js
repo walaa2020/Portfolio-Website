@@ -12,10 +12,11 @@ export default defineConfig({
     }),
       tailwindcss()
   ],
+    base: '/Portfolio-Website/',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: '/Portfolio-Website/'
+
 })
