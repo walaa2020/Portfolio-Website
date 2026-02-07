@@ -11,17 +11,17 @@ const Contact = () => {
         data-aos-delay="700"
         className='flex-1 flex-col pl-4 lg:pl-25 mb-4 pt-20'>
 
-        <h1 className='font-poppins-Bold text-5xl text-light '>
+        <h1 className='font-poppins-Bold text-3xl sm:text-5xl text-light '>
           Got a project in
         </h1>
-        <h1 className='font-poppins-Bold text-5xl text-primary'>
+        <h1 className='font-poppins-Bold text-3xl sm:text-5xl text-primary'>
           Mind?
         </h1>
 
 
         <img
           src='https://walaa2020.github.io/Portfolio-Website/Frame3.png' alt='person'
-          className='h-60 w-75'
+          className='h-40 sm:h-60 w-55 sm:w-75 mt-7 sm:mt-3'
         />
 
 
@@ -35,10 +35,10 @@ const Contact = () => {
       >
         <img
           src='https://walaa2020.github.io/Portfolio-Website/keyboard.png' alt='keyBoard'
-          className='pl-12 pb-20'
+          className='hidden sm:block pl-12 pb-20'
         />
-        <div className='w-full pr-16 flex flex-col gap-4 '>
-          <div className='flex flex-row items-center justify-start gap-2 w-full'>
+        <div className='w-full pr-2 lg:pr-16 flex flex-col gap-4 '>
+          <div className='flex flex-col sm:flex-row items-center justify-start gap-2 w-full'>
 
             <div><label htmlFor="Name" className="block text-sm/6 font-poppins-Bold text-light pb-2">
               Your name
@@ -65,7 +65,7 @@ const Contact = () => {
 
         <img
           src='https://walaa2020.github.io/Portfolio-Website/mail.png' alt='mail'
-          className=' absolute right-20 '
+          className=' absolute right-20 hidden sm:block'
         />
       </section>
     </div>
