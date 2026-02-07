@@ -59,7 +59,7 @@ const Contact = () => {
 
         </div>
         <div className=' pt-5'>
-          <Button className="text-light  [text-shadow:0px_4px_4px_#00000080] font-poppins-Bold">Send Message  <img src="/send.svg" alt="send" /></Button>
+          <Button className="text-light  [text-shadow:0px_4px_4px_#00000080] font-poppins-Bold">Send Message  <img src="https://walaa2020.github.io/Portfolio-Website/send.svg" alt="send" /></Button>
 
         </div>
 
