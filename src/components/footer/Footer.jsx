@@ -6,15 +6,15 @@ const Footer = () => {
 
         <div className="flex justify-center gap-10 mb-8">
           <a href="#" className="flex items-center gap-2 text-light hover:text-white transition font-poppins-Regular">
-            <img src="/home.svg" alt="home" />
+            <img src="https://walaa2020.github.io/Portfolio-Website/home.svg" alt="home" />
             Home
           </a>
           <a href="#about" className="flex items-center gap-2 text-light hover:text-white transition font-poppins-Regular">
-            <img src="/user.svg" alt="user" />
+            <img src="https://walaa2020.github.io/Portfolio-Website/user.svg" alt="user" />
             About me
           </a>
           <a href="#contact" className="flex items-center gap-2 text-light hover:text-white transition font-poppins-Regular">
-            <img src="/phone.svg" alt="phone" />
+            <img src="https://walaa2020.github.io/Portfolio-Website/phone.svg" alt="phone" />
             Contact
           </a>
         </div>
@@ -26,7 +26,7 @@ const Footer = () => {
               key={icon}
               className="rounded-full bg-dark p-3"
             >
-              <img src={`/${icon}.svg`} alt={icon} className="w-4 h-4 " />
+              <img src={`https://walaa2020.github.io/Portfolio-Website/${icon}.svg`} alt={icon} className="w-4 h-4 " />
             </div>
           ))}
         </div>

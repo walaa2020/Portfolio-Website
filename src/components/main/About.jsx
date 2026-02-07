@@ -24,12 +24,12 @@ Pellentesque rhoncus nunc et augue. Integer id felis. Curabitur aliquet pellente
         data-aos-delay="700"
         className='flex-1 flex flex-col items-center lg:items-start  px-0 lg:px-7 '>
         <div className='h-10 w-16 pb-30'>
-          <img src="/music.png" alt="music" className="w-full max-w-sm mx-auto " />
+          <img src="https://walaa2020.github.io/Portfolio-Website/music.png" alt="music" className="w-full max-w-sm mx-auto " />
         </div>
         <div className=' flex flex-row gap-2 items-center justify-center max-w-md '>
           <h1 className='text-light font-poppins-Bold text-5xl'>About</h1>
           <h1 className='text-primary font-poppins-Bold text-5xl'>me</h1>
-          <img src="/lightbulb.png" alt="lightbulb" className="pl-4 " />
+          <img src="https://walaa2020.github.io/Portfolio-Website/lightbulb.png" alt="lightbulb" className="pl-4 " />
         </div>
         <p
           className={`text-light font-poppins-Regular text-[18px] leading-none tracking-normal mt-4 overflow-hidden transition-all duration-300 ${!isExpanded ? "line-clamp-7" : ""
@@ -46,7 +46,7 @@ Pellentesque rhoncus nunc et augue. Integer id felis. Curabitur aliquet pellente
           {isExpanded ? "Show less" : "Read more"}
         </button>
         <div className='w-full flex justify-end pt-20 pr-20'>
-          <img src="/Vector 186.png" alt="Vector 186" className="max-w-sm h-32 w-32  " />
+          <img src="https://walaa2020.github.io/Portfolio-Website/Vector 186.png" alt="Vector 186" className="max-w-sm h-32 w-32  " />
         </div>
       </section>
       <section className=' flex-2 bg-secondary '>
@@ -55,7 +55,7 @@ Pellentesque rhoncus nunc et augue. Integer id felis. Curabitur aliquet pellente
           data-aos="fade-left"
           data-aos-delay="700"
         >
-          <img src="/Frame2.png" alt="about" className="w-full max-w-lg mx-auto " />
+          <img src="https://walaa2020.github.io/Portfolio-Website/Frame2.png" alt="about" className="w-full max-w-lg mx-auto " />
         </figure>
       </section>
 

@@ -20,7 +20,7 @@ const Hero = () => {
         data-aos-delay="500"
       >
         <div className=' flex mt-20 '>
-          <img src="/Vector.png" alt='vector' className='w-[89.96px] h-[221.69px] xl:h-[250px] pt-9  px-3 ' />
+          <img src="https://walaa2020.github.io/Portfolio-Website/Vector.png" alt='vector' className='w-[89.96px] h-[221.69px] xl:h-[250px] pt-9  px-3 ' />
           <header>
             <h1 className="font-poppins-Bold text-6xl xl:text-7xl text-light mb-4 [text-shadow:0px_4px_4px_#00000080] ">
               CREATIVE UI
@@ -51,7 +51,7 @@ const Hero = () => {
         data-aos="fade-up"
         data-aos-delay="700"
       >
-        <img src="/Frame.png" alt="hero" className="w-full max-w-sm mx-auto lg:mx-0  mt-0 lg:mt-40" />
+        <img src="https://walaa2020.github.io/Portfolio-Website/Frame.png" alt="hero" className="w-full max-w-sm mx-auto lg:mx-0  mt-0 lg:mt-40" />
       </figure>
     </section>
   );

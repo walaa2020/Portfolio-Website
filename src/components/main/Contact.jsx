@@ -20,7 +20,7 @@ const Contact = () => {
 
 
         <img
-          src='/Frame3.png' alt='person'
+          src='https://walaa2020.github.io/Portfolio-Website/Frame3.png' alt='person'
           className='h-60 w-75'
         />
 
@@ -34,7 +34,7 @@ const Contact = () => {
 
       >
         <img
-          src='/keyboard.png' alt='keyBoard'
+          src='https://walaa2020.github.io/Portfolio-Website/keyboard.png' alt='keyBoard'
           className='pl-12 pb-20'
         />
         <div className='w-full pr-16 flex flex-col gap-4 '>
@@ -64,7 +64,7 @@ const Contact = () => {
         </div>
 
         <img
-          src='/mail.png' alt='mail'
+          src='https://walaa2020.github.io/Portfolio-Website/mail.png' alt='mail'
           className=' absolute right-20 '
         />
       </section>

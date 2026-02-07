@@ -25,15 +25,15 @@ const Works = () => {
 
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10'>
         <div className="backdrop-blur-xs bg-[#393E4680] h-44 w-64 sm:h-48 sm:w-64 flex items-center justify-center rounded-md" data-aos="fade-up" data-aos-delay="100">
-          <img src="/design.jpg" alt="design" className="h-28 w-40 object-contain" />
+          <img src="https://walaa2020.github.io/Portfolio-Website/design.jpg" alt="design" className="h-28 w-40 object-contain" />
         </div>
 
         <div className="backdrop-blur-xs bg-[#393E4680] h-44 w-64 sm:h-48 sm:w-64 flex items-center justify-center rounded-md" data-aos="fade-up" data-aos-delay="200">
-          <img src="/uiux.png" alt='uiux' className="h-28 w-60 object-contain" />
+          <img src="https://walaa2020.github.io/Portfolio-Website/uiux.png" alt='uiux' className="h-28 w-60 object-contain" />
         </div>
 
         <div className="backdrop-blur-xs bg-[#393E4680] h-44 w-64 sm:h-48 sm:w-64 flex items-center justify-center rounded-md" data-aos="fade-up" data-aos-delay="300">
-          <img src="/mobile.png" alt='mobile' className="h-28 w-60 object-contain" />
+          <img src="https://walaa2020.github.io/Portfolio-Website/mobile.png" alt='mobile' className="h-28 w-60 object-contain" />
         </div>
       </div>
     </div>
