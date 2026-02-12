@@ -21,7 +21,7 @@ This project showcases projects, skills, and contact information with smooth ani
 - **React**
 - **Tailwind CSS**
 - **AOS (Animate On Scroll)**
-- **React Icons**
+- **Chadcin**
 
 ---
 ## ⚙️ Installation
