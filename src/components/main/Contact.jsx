@@ -11,10 +11,10 @@ const Contact = () => {
         data-aos-delay="700"
         className='flex-1 flex-col pl-4 lg:pl-25 mb-4 pt-20'>
 
-        <h1 className='font-poppins-Bold text-3xl sm:text-5xl text-light '>
+        <h1 className='font-poppins-Bold text-[clamp(1.3rem,8vw,3rem)] text-light '>
           Got a project in
         </h1>
-        <h1 className='font-poppins-Bold text-3xl sm:text-5xl text-primary'>
+        <h1 className='font-poppins-Bold text-[clamp(1.3rem,8vw,3rem)] text-primary'>
           Mind?
         </h1>
 
@@ -50,7 +50,7 @@ const Contact = () => {
             </label>
               <Input placeholder="Email" className="border-primary" /></div>
           </div>
-          <div className='pr-4'>
+          <div className='w-full  '>
             <label htmlFor="Message" className="block text-sm/6 font-poppins-Bold text-light pb-2">
               Your Message
             </label>
@@ -58,7 +58,7 @@ const Contact = () => {
           </div>
 
         </div>
-        <div className=' pt-5'>
+        <div className='flex justify-center lg:justify-start pt-5 '>
           <Button className="text-light  [text-shadow:0px_4px_4px_#00000080] font-poppins-Bold">Send Message  <img src="https://walaa2020.github.io/Portfolio-Website/send.svg" alt="send" /></Button>
 
         </div>

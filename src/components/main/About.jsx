@@ -27,12 +27,12 @@ Pellentesque rhoncus nunc et augue. Integer id felis. Curabitur aliquet pellente
           <img src="https://walaa2020.github.io/Portfolio-Website/music.png" alt="music" className=" max-w-sm mx-auto  h-10 w-12 sm:w-auto sm:h-auto" />
         </div>
         <div className=' flex flex-row gap-2 items-center justify-center max-w-md '>
-          <h1 className='text-light font-poppins-Bold text-3xl sm:text-5xl'>About</h1>
-          <h1 className='text-primary font-poppins-Bold text-3xl sm:text-5xl'>me</h1>
+          <h1 className='text-light font-poppins-Bold text-[clamp(1.3rem,8vw,3rem)]'>About</h1>
+          <h1 className='text-primary font-poppins-Bold text-[clamp(1.3rem,8vw,3rem)]'>me</h1>
           <img src="https://walaa2020.github.io/Portfolio-Website/lightbulb.png" alt="lightbulb" className="pl-4 h-16 w-16 sm:w-auto sm:h-auto" />
         </div>
         <p
-          className={`text-light font-poppins-Regular text-[18px] leading-none tracking-normal mt-4 overflow-hidden transition-all duration-300 ${!isExpanded ? "line-clamp-7" : ""
+          className={` text-light font-poppins-Regular text-[clamp(14px,3vw,18px)] leading-none tracking-normal mt-4 overflow-hidden transition-all duration-300 ${!isExpanded ? "line-clamp-7" : ""
             }`}
 
         >
@@ -41,7 +41,7 @@ Pellentesque rhoncus nunc et augue. Integer id felis. Curabitur aliquet pellente
         </p>
         <button
           onClick={toggleReadMore}
-          className="text-light font-poppins-Bold hover:underline "
+          className=" text-light flex  font-poppins-Bold hover:underline text-[clamp(14px,3vw,18px)]"
         >
           {isExpanded ? "Show less" : "Read more"}
         </button>
