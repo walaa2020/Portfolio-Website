@@ -7,7 +7,7 @@
   src: url(../src/assets/fonts/Poppins-Bold.ttf);
   font-weight: 700;
   font-style: normal;
-};
+}
 @font-face {
   font-family: Poppins-Regular;
   src: url(../src/assets/fonts/Poppins-Regular.ttf);
@@ -15,8 +15,8 @@
   font-style: normal;
 }
 
-@theme {
-  --color-primary: #00ADB5;
+@theme{
+    --color-primary: #00ADB5;
   --color-secondary: #222831;
   --color-dark: #393E46;
   --color-light: #EEEEEE;

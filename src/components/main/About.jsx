@@ -26,13 +26,13 @@ Pellentesque rhoncus nunc et augue. Integer id felis. Curabitur aliquet pellente
         <div className='h-10 w-16 pb-30'>
           <img src="https://walaa2020.github.io/Portfolio-Website/music.png" alt="music" className=" max-w-sm mx-auto  h-10 w-12 sm:w-auto sm:h-auto" />
         </div>
-        <div className=' flex flex-row gap-2 items-center justify-center max-w-md '>
-          <h1 className='text-light font-poppins-Bold text-[clamp(1.3rem,8vw,3rem)]'>About</h1>
-          <h1 className='text-primary font-poppins-Bold text-[clamp(1.3rem,8vw,3rem)]'>me</h1>
+        <div className=' flex flex-row gap-2 items-center justify-center max-w-md text-[29px] sm:text-[36px] md:text-[40px] lg:text-[44px] xl:text-[48px] 2xl:text-[52px] transition-all duration-500 ease-in-out '>
+          <h1 className='text-light font-poppins-Bold '>About</h1>
+          <h1 className='text-primary font-poppins-Bold '>me</h1>
           <img src="https://walaa2020.github.io/Portfolio-Website/lightbulb.png" alt="lightbulb" className="pl-4 h-16 w-16 sm:w-auto sm:h-auto" />
         </div>
         <p
-          className={` text-light font-poppins-Regular text-[clamp(14px,3vw,18px)] leading-none tracking-normal mt-4 overflow-hidden transition-all duration-300 ${!isExpanded ? "line-clamp-7" : ""
+          className={`px-4 sm:px-5 md:px-7 text-light font-poppins-Regular text-[14px] sm:text-[16px] lg:text-[18px] leading-none tracking-normal mt-4 overflow-hidden transition-all duration-300 ${!isExpanded ? "line-clamp-7" : ""
             }`}
 
         >
@@ -41,7 +41,7 @@ Pellentesque rhoncus nunc et augue. Integer id felis. Curabitur aliquet pellente
         </p>
         <button
           onClick={toggleReadMore}
-          className=" text-light flex  font-poppins-Bold hover:underline text-[clamp(14px,3vw,18px)]"
+          className=" text-light flex font-poppins-Bold hover:underline text-[14px] sm:text-[16px] lg:text-[18px] transition-all duration-300 "
         >
           {isExpanded ? "Show less" : "Read more"}
         </button>

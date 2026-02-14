@@ -32,7 +32,7 @@ const Footer = () => {
         </div>
 
 
-        <div className="flex justify-end pb-6 text-xs font-poppins-Regular text-light opacity-75 ">
+        <div className="flex justify-center md:justify-end pb-6 text-xs font-poppins-Regular text-light opacity-75 ">
           <p>
             Terms of Service - Privacy Policy
           </p>

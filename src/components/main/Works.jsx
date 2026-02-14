@@ -11,9 +11,11 @@ const Works = () => {
   return (
     <div className='min-h-screen bg-[url("/ProjectsPage.png")] bg-cover bg-center flex flex-col items-center lg:items-start justify-center gap-8 px-4 sm:px-6 md:px-12 lg:px-24'>
 
-      <div className='flex flex-row gap-2 pt-20' data-aos="fade-down">
-        <h1 className='font-poppins-Bold  text-[clamp(1.3rem,8vw,3rem)] text-light'>My Recent</h1>
-        <h1 className='font-poppins-Bold  text-[clamp(1.3rem,8vw,3rem)] text-primary'>Works</h1>
+      <div className='flex flex-row  gap-2 pt-20 text-[29px] sm:text-[36px] md:text-[40px] lg:text-[44px] xl:text-[48px] 2xl:text-[52px] transition-all duration-500 ease-in-out 
+      [@media(max-width:305px)]:flex-col
+    [@media(max-width:305px)]:gap-1' data-aos="fade-down">
+        <h1 className='font-poppins-Bold   text-light'>My Recent</h1>
+        <h1 className='font-poppins-Bold   text-primary'>Works</h1>
       </div>
 
       <div className='flex flex-wrap justify-center lg:justify-start gap-3' data-aos="fade-up">
