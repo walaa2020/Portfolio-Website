@@ -33,7 +33,7 @@ const Hero = () => {
               <Button className="text-light bg-dark px-6 lg:px-8 py-2.5 font-poppins-Bold  [text-shadow:0px_4px_4px_#00000080]">Download CV
 
 
-               <img src="https://walaa2020.github.io/Portfolio-Website/download.svg" alt="download" className='w-5 h-6'/>
+                <img src="https://walaa2020.github.io/Portfolio-Website/download.svg" alt="download" className='w-5 h-6' />
 
 
               </Button>
