@@ -32,7 +32,7 @@ Pellentesque rhoncus nunc et augue. Integer id felis. Curabitur aliquet pellente
           <img src="https://walaa2020.github.io/Portfolio-Website/lightbulb.png" alt="lightbulb" className="pl-4 h-16 w-16 sm:w-auto sm:h-auto" />
         </div>
         <p
-          className={`px-4 sm:px-5 md:px-7 text-light font-poppins-Regular text-[14px] sm:text-[16px] lg:text-[18px] leading-none tracking-normal mt-4 overflow-hidden transition-all duration-300 ${!isExpanded ? "line-clamp-7" : ""
+          className={`px-4 sm:px-5 md:px-7 lg:px-0 text-light font-poppins-Regular text-[14px] sm:text-[16px] lg:text-[18px] leading-none tracking-normal mt-4 overflow-hidden transition-all duration-300 ${!isExpanded ? "line-clamp-7" : ""
             }`}
 
         >
